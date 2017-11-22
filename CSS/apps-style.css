@@ -1,0 +1,61 @@
+/* CSS for "Apps" page */
+* {
+    font-family: proxima-nova;
+}
+
+.site-title a {
+    color: #1f3e63;
+    text-decoration: none;
+    font-size: 1.6rem; 
+    font-family: proxima-nova;
+    font-weight:500;
+}
+
+.site-title a:hover {
+    color: rgba(31,62,99,.7);
+}
+
+.main-nav a {
+    text-decoration: none;
+    
+}
+
+.jumbotron {
+    background-image: url(Waterfall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.app-box {
+    background-repeat:no-repeat;
+    height:14rem;
+    width: 6.5rem;
+    background-position: center;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#career-connections {
+    background-image:url(career-connect.png);
+    padding: none;
+    
+}
+
+#som {
+    background-image:url(som-logo.png); 
+}
+
+.empty-box {
+    background-image: url("more-soon.png");
+}
+
+h1 {
+    font-family: proxima-nova;
+}
+
+p {
+    font-family: proxima-nova;
+}
