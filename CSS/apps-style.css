@@ -36,6 +36,9 @@
     border: 1px solid black;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    margin-right: 2rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
 }
 
 #career-connections {
@@ -50,6 +53,7 @@
 
 .empty-box {
     background-image: url("more-soon.png");
+    margin-left: 2rem;
 }
 
 h1 {
@@ -58,4 +62,10 @@ h1 {
 
 p {
     font-family: proxima-nova;
+}
+
+.grid-images {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
 }
